@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/ivan-claire/Operationalize-a-Machine-Learning-Microservice-API.svg?style=svg)](https://circleci.com/gh/ivan-claire/Operationalize-a-Machine-Learning-Microservice-API)
 # Operationalize-a-Machine-Learning-Microservice-API 
 This project is part of the Udacity Cloud Devops Nanodegree program.
 In this project, a containerized flas application is deployed to serve out predictions about housing prices through API calls. Using an sklearn model that has been trained to predict housing in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios etc.
