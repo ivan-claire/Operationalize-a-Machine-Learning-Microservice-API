@@ -23,4 +23,21 @@ In this project, a containerized flas application is deployed to serve out predi
 - run_docker.sh: file to be able to get Docker running, locally
 
 
-### Run the project
+### Run the application and make predictions
+
+1. Deploy the application in standalone cluster by running:
+```
+python app.py
+```
+2. Deploy the application to kubernetes by running:
+```
+./run_kubernetes.sh
+```
+3. Deploy the application on docker by running
+```
+`./run_docker.sh`
+```
+4. To make a prediction after the pod is up and running, 
+```
+./make_prediction.sh
+```
